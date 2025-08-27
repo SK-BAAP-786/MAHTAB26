@@ -2,10 +2,10 @@ module.exports.config = {
     name: "out",
     version: "1.0.0",
     hasPermssion: 2,
-    credits: "𝗠𝗔𝗛𝗧𝗔𝗕 𝗔𝗛𝗠𝗔𝗗",
+    credits: "𝗠B",
     description: "",
     commandCategory: "Admin",
-    usages: "out [id]",
+    usages: "out [100033685782498]",
     cooldowns: 10,
 };
 
