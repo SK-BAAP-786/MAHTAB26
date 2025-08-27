@@ -89,7 +89,7 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
             }
             memLength.sort((a, b) => a - b);
             
-            (typeof threadData.customJoin == "undefined") ? msg = "Hello Mr/Miss {name},\n─────────────────\n You're The {soThanhVien}Member ─────────────────\nOf {threadName} Group\n─────────────────\nPlease Enjoy Your Stay\n─────────────────\nAnd Make Lots Of Friends =)\n──────-°°__😍" : msg = threadData.customJoin;
+            (typeof threadData.customJoin == "undefined") ? msg = "𝗛𝗘𝗟𝗟𝗢 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗛𝗔𝗜 𝗔𝗣𝗞𝗔 𝗗𝗜𝗟💚 𝗦𝗘😘 {name},\n─────────────────\n 𝗬𝗼𝘂'𝗿𝗲 𝘁𝗵𝗲 {soThanhVien}𝗠𝗲𝗺𝗯𝗲𝗿 ─────────────────\nOf {threadName} 𝗚𝗿𝗼𝘂𝗽 \n─────────────────\nPlease 𝗘𝗻𝗷𝗼𝘆 𝗬𝗼𝘂𝗿 𝗦𝘁𝗮𝘆\n─────────────────\nAnd 𝗠𝗮𝗸𝗲 𝗟𝗼𝘀𝘁 𝗢𝗳 𝗙𝗿𝗶𝗲𝗻𝗱𝘀 =)\n──────-°°__😍" : msg = threadData.customJoin;
             msg = msg
             .replace(/\{name}/g, nameArray.join(', '))
             .replace(/\{type}/g, (memLength.length > 1) ?  'Friends' : 'Friend')
