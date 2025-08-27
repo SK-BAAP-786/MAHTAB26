@@ -2,7 +2,7 @@ module.exports.config = {
   name: "Body",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "𝗠𝗔𝗛𝗧𝗔𝗕 𝗔𝗛𝗠𝗔𝗗",
   description: "Random 6-pack photos",
   commandCategory: "Random-IMG",
   usages: "6mui",
@@ -137,6 +137,6 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/vn3vNsi.jpg",
 "https://i.imgur.com/aV4WVsq.jpg"
      ];
-     var callback = () => api.sendMessage({body:`Agar Tum Gay Nhi Ho To Ye Dekho Six Pack -.-`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+     var callback = () => api.sendMessage({body:`Agar Tum Gay Nhi Ho To Ye Dekho Six Pack Body🫣 -.-`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
    };
