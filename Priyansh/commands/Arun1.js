@@ -18,7 +18,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("mahtab")) {
 		var msg = {
 				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆★\n\n 𝗠𝗮𝗵𝘁𝗮𝗯✦😈:\n\n✦  ✦ \n𝗝𝗼𝗶𝗻 𝗠𝘆 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 𝗜𝗱 \n 𝗠𝗮𝗵𝘁𝗮𝗯 𝗔𝗵𝗺𝗮𝗱 😋https://www.facebook.com/mahtab.ahmad.985178`",
-				attachment: fs.createReadStream(__dirname + `/noprefix/Screenshot_20250814_124812.jpg`)
+				attachment: fs.createReadStream(__dirname + `/noprefix/IMG_20250915_125402.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("📷", event.messageID, (err) => {}, true)
